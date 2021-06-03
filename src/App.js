@@ -13,7 +13,7 @@ const App = () => {
     {
         id: 2,
         text: 'School Appointment',
-        day: 'Feb 6th at 2:30PM',
+        day: 'Feb 6th at 1:30PM',
         reminder: true,
     },
     {
@@ -24,6 +24,7 @@ const App = () => {
     
     },
     ])
+    
   return(
     <div className='container'>
       <Header />
